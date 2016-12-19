@@ -1,6 +1,6 @@
 # In this tutorial, the modules 
 1. calcdiam.f90
-2. interpolate.f90 
+1. interpolate.f90 
 are utilized to calculate respectively:
 1. diameter of an imc from the measured numbers of IMCs per sq. micrometers area (numratio) with the assumption that the IMC morphology 
 is scalloped and has spherical top. 
