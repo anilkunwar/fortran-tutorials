@@ -11,8 +11,8 @@ CONTAINS
 
 ! --------------------------------------------------------------------
 ! FUNCTION  Diameter() :
-!    This function accepts a non-negative integers and returns its
-! Factorial.
+!    This function performs the computation of size or diameter for a 
+!value of number of IMC per unit area in um
 ! --------------------------------------------------------------------
   
    INTEGER FUNCTION  Diameter() 
