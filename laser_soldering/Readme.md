@@ -8,3 +8,7 @@ is scalloped and has spherical top.
 Also, do loop is utilized to get an array of diameters for given values of numratio.
 2. interpolated values of diameter for a given point of laser scan speed provided that measured values of two laser speeds 
 and corresponding diameters of IMCs are given.
+In order to run the program in Ubuntu with gfortran installed:
+$ gfortran calcdiam.f90 interpolate.f90 mainfile.f90
+This will produce and executable a.out. Please note that the order of fortran files should be such that the mainfile should be at the end during the gfortran run or compilation.
+
