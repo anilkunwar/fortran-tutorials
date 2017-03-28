@@ -23,7 +23,7 @@ Print*,"#Temperature (K) Diffusivity(kg m^(-3))"
 DO Counter = 1, 109, 1
 T = T + 1.0
 x= Earrh/(R*T)
-y=e**(x)
+y=e**(-x)
 diffcoeff=A*y
 !Write(*,*)'T (K):',T
 !Write(*,*)'The Viscosity(mPa.S):',visc
