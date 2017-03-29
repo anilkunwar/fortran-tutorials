@@ -1,4 +1,4 @@
- # Temperature dependent diffusivity of Cu in molten tin
+ # Temperature dependent diffusivity of Cu in molten tin (A.Kunwar et al, JMSE, 2016, 27:7699-7706.)
  #Temperature (K) Diffusivity(m^2/s)
    500.000000       5.35142197E-09
    501.000000       5.39674572E-09
