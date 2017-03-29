@@ -1,4 +1,5 @@
- #Temperature (K) Diffusivity(kg m^(-3))
+ # Temperature dependent diffusivity of Cu in molten tin
+ #Temperature (K) Diffusivity(m^2/s)
    500.000000       5.35142197E-09
    501.000000       5.39674572E-09
    502.000000       5.44226886E-09
