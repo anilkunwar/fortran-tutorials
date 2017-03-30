@@ -14,6 +14,6 @@ write(*,*)'write the weight fraction of Cu in fraction or decimal (0.1307 at 415
 read(*,*)weightfractionofcu 
 !write(*,*)'write the value of measured diamter at surface(millimeters):'
 !read(*,*)measured
-molefractionofcu=(weightfractionofcu*mcu)/d(mcu + msn)
+molefractionofcu=(weightfractionofcu*mcu)/(mcu + msn)
 write(*,*)'The mole fraction of Cu in Sn-Cu mixture is',molefractionofcu 
 end program cusolubilityxf
