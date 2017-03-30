@@ -5,8 +5,8 @@
 !CuWftoXf.F90 and cu_fraction_mass_to_molefraction.F90
 program cusolubilityxf
 implicit none
-real,parameter::mcu=63.5 !molar weight of Cu in grams
-real,parameter::msn=118 !molar weight of Sn in grams
+real,parameter::mcu=63.546 !molar weight of Cu in grams
+real,parameter::msn=118.710 !molar weight of Sn in grams
 real::weightfractionofcu     !weight fraction of Cu in decimals
 real::molefractionofcu  !mole fraction of Cu in decimals
 !real::bd  !bubble diameter
