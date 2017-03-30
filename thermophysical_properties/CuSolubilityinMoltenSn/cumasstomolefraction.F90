@@ -2,6 +2,7 @@
 ! M.L. Huang et al, APPLIED PHYSICS LETTERS 86, 181908 (2005)http://aip.scitation.org/doi/pdf/10.1063/1.1925317
 !This program calculates the mole fraction of Cu from the mass fraction in Cu-Sn mixture
 !x_f=(w_f*M_Cu)/(M_Cu + M_Sn)
+!CuWftoXf.F90
 program cusolubilityxf
 implicit none
 real,parameter::mcu=63.5 !molar weight of Cu in grams
