@@ -9,9 +9,10 @@ Real,Parameter:: xl= 0.001649 !molarity of Cu corresponding to lower temperature
 Real,Parameter:: xh= 0.21928 !molarity of Cu corresponding to Higher temperature equal to 415 degree centigrade
 Real::xft !molarity at temperature T
 Real :: slope
+Integer :: Counter
 !Real:: A, B
 slope = (xh-xl)/(Th-Tl)
-Integer :: Counter
+
 Write(*,*)'starting T (in Kelvin Scale):'
 Read(*,*)T
 !Write(*,*)'A (eg: A for Cu in Sn = 3.66e-7):'
