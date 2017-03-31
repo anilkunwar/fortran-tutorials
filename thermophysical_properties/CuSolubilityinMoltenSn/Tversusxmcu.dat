@@ -1,5 +1,6 @@
 #Temperature(K) Molarity of cu (x_m/Cu) in liquid Sn
-# Source: http://www.metallurgy.nist.gov/phase/solder/cusn.html
+# Source: 1. http://www.metallurgy.nist.gov/phase/solder/cusn.html
+# 2. http://www.sciencedirect.com/science/article/pii/S0925838812007323
   #Temperature(K) Molarity
     500.000000       1.65095571E-02
    501.000000       1.69008225E-02
