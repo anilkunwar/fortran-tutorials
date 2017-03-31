@@ -1,9 +1,9 @@
 # Temperature dependence of saturated solubility and dissolution rate constant of Cu in molten or liquid tin
 # 1. and 5. from http://www.metallurgy.nist.gov/phase/solder/cusn.html
 # 2. - 4. from Abdelhadi,Ladani, 2012, J.Alloys.Comp., Vol. 537, pp.87-99, http://www.sciencedirect.com/science/article/pii/S0925838812007323
-#S.N. Temp(oC) Temp(K) Cs(wt%) Cs(xf) k_d(m/s)
-1. 226.8  499.95  0.89  0.01649 -
-2. 260.0  533.15  1.60  0.02948 8.21e-6
-3. 310.0  583.15  3.025 0.055064 1.09e-5
-4. 360.0  633.15  5.19  0.09277 1.39e-5
-5. 415.0  688.15  13.07 0.21928 -
+#S.N. Temp(oC) Temp(K) Cs(wt%) Cs(xf) Cs(mole/cc) k_d(m/s)
+1. 226.8  499.95  0.89  0.01649 1.02226459E-03 -
+2. 260.0  533.15  1.60  0.02948 1.84019073E-03 8.21e-6
+3. 310.0  583.15  3.025 0.055064 3.48829664E-03 1.09e-5
+4. 360.0  633.15  5.19  0.09277 6.00898499E-03 1.39e-5
+5. 415.0  688.15  13.07 0.21928 1.53575949E-02 -
