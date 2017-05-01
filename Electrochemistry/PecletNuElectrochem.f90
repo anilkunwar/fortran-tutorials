@@ -33,7 +33,7 @@ SELECT CASE (Ions)
       Read(*,*)j
       Pe = (z*F*rho*j*L)/(R*T*Diffzinc)
    CASE DEFAULT
-      Write(*,*)'Please choose either tin, zinc, silver or copper:'
+      Write(*,*)'Please choose either tin, zinc, silver or copper (coding for silver and copper yet to be added):'
 END SELECT
    Write(*,*)'Peclet number for your selected ion at given current density is:',Pe
 END PROGRAM Pecletnumber
