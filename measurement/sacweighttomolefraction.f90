@@ -17,6 +17,7 @@ real::molefractionofsn !mole fraction of Sn in decimals
 real::moleofag  !weight fraction of Cu divided by its molar weight
 real::moleofcu  !weight fraction of Cu divided by its molar weight
 real::moleofsn   !weight fraction of Sn divided by its molar weight
+real::Meffective !Effective molar/atomic weight of alloy
 !real::bd  !bubble diameter
 write(*,*)'write the weight fraction of Cu in fraction or decimal (0.5 % or 0.005 in Sn3.5Ag0.5Cu)'
 read(*,*)weightfractionofcu 
@@ -30,5 +31,7 @@ molefractionofsn=(1-(weightfractionofcu + weightfractionofag))/msn
 moleofag=(molefractionofag)/(molefractionofcu + molefractionofag + molefractionofsn)
 moleofcu=(molefractionofcu)/(molefractionofcu + molefractionofag + molefractionofsn)
 moleofsn=(molefractionofsn)/(molefractionofcu + molefractionofag + molefractionofsn)
-write(*,*)'mole % of Ag i.e. n_Ag=',100*moleofag, 'mole % of Cu i.e. n_Cu=',100*moleofcu ,'mole % of Sn i.e. n_Sn=', 100*moleofsn  
+Meffective = moleofag*mag + moleofcu*mcu + moleofsn*msn
+write(*,*)'mole % of Ag i.e. n_Ag=',100*moleofag, 'mole % of Cu i.e. n_Cu=',100*moleofcu ,'mole % of Sn i.e. n_Sn=', 100*moleofsn, &
+'Meffective_SAC=',Meffective  
 end program sacwttomolfrac
