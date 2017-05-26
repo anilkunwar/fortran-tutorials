@@ -19,7 +19,7 @@ Read(*,*) A
 Write(*,*)'Earrh(eg: Earrh for Cu in tin= 33020.0):'
 Read(*,*)Earrh
 !T=T+273.15 !Convert to Kelvin Scale
-Print*,"#Temperature (K) Diffusivity(kg m^(-3))"
+Print*,"#Temperature (K) Diffusivity(m^(2)/s)"
 DO Counter = 1, 109, 1
 T = T + 1.0
 x= Earrh/(R*T)
