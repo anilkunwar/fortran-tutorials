@@ -1,4 +1,4 @@
-#Temperature (K) Diffusivity(kg m^(-3))
+#Temperature (K) Diffusivity(m^(2)/s)
    298.000000       3.88452129E-13
    299.000000       4.06167531E-13
    300.000000       4.24564463E-13
